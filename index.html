@@ -4,91 +4,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática Interativa - Descritores</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
 </head>
 
 <body>
-
     <header>
-        <h1>Matemática: Descritores 8, 22 e 27</h1>
-        <p>Aprenda sobre equações de retas, progressões e funções exponenciais.</p>
+        <h1>📚 Matemática: Descritores 8, 22 e 27</h1>
     </header>
 
-    <section>
-        <h2>Descritor 8: Equação de uma Reta</h2>
-        <p>O descritor D8 na avaliação de matemática do 3° ano do ensino fundamental
-            geralmente se refere à habilidade de identificar a equação de uma reta a
-            partir de dois pontos dados ou de um ponto e sua inclinação. Ele está
-            relacionado à geometria analítica e à capacidade de relacionar a
-            representação algébrica (equação da reta) com a representação geométrica
-            (reta no plano cartesiano).</p>
-        <p><strong>Em outras palavras, o descritor D8 avalia se o aluno consegue:
-                Identificar a equação da reta:</strong></p>
-        <p>Dada uma reta representada graficamente ou descrita por dois pontos, o
-            aluno deve ser capaz de determinar a equação que a representa (geralmente
-            na forma reduzida y = mx + b.</p>
-        <ul>
-            <p><strong>m</strong> é a inclinação da reta.</p>
-            <p><strong>b</strong> é o valor da interseção com o eixo y.</p>
-        </ul>
-        <div class="example">
-            <h3>Exemplo</h3>
-            Se tivermos os pontos (1, 2) e (3, 6), a inclinação é:</p>
-            <p><strong>m = (6 - 2) / (3 - 1) = 2</strong></p>
-            <p>A equação da reta será:</p>
-            <p><strong>y = 2x + b</strong></p>
-            <p>Substituindo o ponto (1, 2) na equação, encontramos <strong>b = 0</strong>, então a equação é:</p>
-            <p><strong>y = 2x</strong></p>
-            <h3>Dicas</h3>
+    <main>
+        <!-- Descritor 8 -->
+        <section class="content-section">
+            <h2>Descritor 8: Identificar a equação de uma reta apresentada a partir de dois pontos dados ou de um ponto
+                e sua inclinação.</h2>
+
+            <p>Este descritor avalia se o aluno consegue identificar a <strong>equação de uma reta</strong> a partir de:
+            </p>
             <ul>
-                <li><strong>Dicas de Estudo para Melhorar:</strong>
-                    <ul>
-                        <li>Pratique bastante, começando com exemplos simples e depois avançando para casos mais
-                            complexos.</li>
-                        <li>Compreenda o significado da inclinação, visualizando que quando <strong>m > 0</strong> a
-                            reta sobe e
-                            quando <strong>m < 0</strong> ela desce.</li>
-                        <li>Faça exercícios de diferentes contextos, incluindo situações com a inclinação dada e apenas
-                            um ponto.</li>
-                        <li>Verifique o sinal da inclinação e como ele afeta a direção da reta.</li>
-                        <li>Use gráficos para visualizar a reta e verificar se sua equação está correta.</li>
-                    </ul>
-                </li>
+                <li>✅ Dois pontos no plano cartesiano</li>
+                <li>✅ Um ponto e a inclinação da reta</li>
             </ul>
-        </div>
-    </section>
 
-    <section>
-        <h2>Descritor 22: Progressões Aritméticas e Geométricas</h2>
-        <p>O descritor D22 exige que o aluno saiba resolver problemas envolvendo Progressões Aritméticas (P.A.) e
-            Progressões Geométricas (P.G.), utilizando as fórmulas para o cálculo dos termos gerais dessas progressões.
-            O objetivo é aplicar essas fórmulas para encontrar qualquer termo em uma sequência, dado o primeiro termo e
-            a razão da progressão.</p>
-        <p><strong>an = a1 + (n - 1) * r</strong></p>
-        <p>Onde <strong>a_1</strong> é o primeiro termo e <strong>r</strong> é a razão da progressão.</p>
+            <h3>📘 Fórmula principal:</h3>
+            <p><strong>y = m·x + b</strong></p>
+            <ul>
+                <li><strong>m</strong> → inclinação (coeficiente angular)</li>
+                <li><strong>b</strong> → ponto onde a reta intercepta o eixo y</li>
+            </ul>
 
-        <p>Uma progressão geométrica (P.G.) é uma sequência onde cada termo após o primeiro é obtido multiplicando o
-            termo anterior por uma constante chamada razão. A fórmula do n-ésimo termo é:</p>
-        <p><strong>an = a1 * q^(n-1)</strong></p>
-        <div class="example">
-            <h3>Exemplo: Progressão Aritmética</h3>
-            Se a P.A. tiver <strong>a_1 = 3</strong> e <strong>r = 2</strong>, a sequência é: 3, 5, 7, 9, 11, ...
-        </div>
-    </section>
+            <h3>🧠 Como calcular <strong>m</strong>?</h3>
+            <p>Se temos dois pontos: <strong>A(x₁, y₁)</strong> e <strong>B(x₂, y₂)</strong></p>
+            <p><strong>m = (y₂ − y₁) ÷ (x₂ − x₁)</strong></p>
 
-    <section>
-        <h2>Descritor 27: Função Exponencial</h2>
-        <p>A função exponencial tem a forma <strong>f(x) = a * b^x</strong>, onde:</p>
-        <ul>
-            <li><strong>a</strong> é o coeficiente inicial.</li>
-            <li><strong>b</strong> é a base da função, que deve ser positiva.</li>
-            <li><strong>x</strong> é o expoente.</li>
-        </ul>
-        <p>Essa função cresce rapidamente quando <strong>b > 1</strong> e decai quando <strong>0 < b < 1</strong>.</p>
+            <div class="example">
+                <h3>📌 Exemplo completo:</h3>
+                <p>Dado os pontos A(1, 2) e B(3, 6)</p>
 
-        <div class="example">
-            <h3>Exemplo de função exponencial</h3>
-            Se tivermos a função <strong>f(x) = 2 * 3^x</strong>, ela cresce rapidamente à medida que x aumenta.
-        </div>
-    </section>
+                <p><strong>Passo 1: Calcular m</strong></p>
+                <p>
+                    Usando a fórmula: <br>
+                    m = (y₂ − y₁) ÷ (x₂ − x₁) <br>
+                    m = (6 − 2) ÷ (3 − 1) <br>
+                    m = 4 ÷ 2 = <strong>2</strong>
+                </p>
+
+                <p><strong>Passo 2: Montar a fórmula geral com m</strong></p>
+                <p>
+                    y = 2x + b
+                </p>
+
+                <p><strong>Passo 3: Substituir um dos pontos (vamos usar A(1, 2)) para achar b:</strong></p>
+                <p>
+                    y = 2x + b → Substituímos x = 1 e y = 2<br>
+                    2 = 2·1 + b → 2 = 2 + b<br>
+                    b = 2 − 2 = <strong>0</strong>
+                </p>
+
+                <p><strong>✅ Equação final: y = 2x</strong></p>
+            </div>
+
+            <h3>💡 Dicas:</h3>
+            <ul>
+                <li>✏️ Comece sempre identificando x₁, y₁, x₂, y₂</li>
+                <li>🧮 Substitua na fórmula com calma e organize os passos</li>
+                <li>↗️ Se m > 0 → reta sobe | ↘️ Se m < 0 → reta desce</li>
+                <li>📊 Faça um esboço para entender o comportamento da reta</li>
+            </ul>
+        </section>
+
+
+        <!-- Descritor 22 -->
+        <section class="content-section">
+            <h2>Descritor 22: Resolver problema envolvendo P.A. e P.G., dada a fórmula do termo geral.</h2>
+
+            <p>Este descritor avalia se o aluno consegue identificar e resolver situações com <strong>progressões
+                    aritméticas (P.A.)</strong> e <strong>progressões geométricas (P.G.)</strong> a partir de:</p>
+            <ul>
+                <li>✅ Fórmula do termo geral da P.A. ou da P.G.</li>
+                <li>✅ Identificação de elementos como a₁, r ou q, n, aₙ</li>
+                <li>✅ Reconhecimento do comportamento crescente ou decrescente da sequência</li>
+            </ul>
+
+
+            <h3>📘 Fórmula do termo geral da P.A.:</h3>
+            <p><strong>aₙ = a₁ + (n − 1)·r</strong></p>
+
+            <ul>
+                <li><strong>a₁</strong> → primeiro termo</li>
+                <li><strong>r</strong> → razão (diferença entre termos)</li>
+                <li><strong>n</strong> → posição do termo</li>
+                <li><strong>aₙ</strong> → termo geral (n-ésimo termo)</li>
+            </ul>
+
+            <div class="example">
+                <h3>📌 Exemplo: P.A.</h3>
+                <p>Queremos encontrar o 5º termo de uma P.A. com:</p>
+                <p>a₁ = 3 e r = 2</p>
+
+                <p><strong>Passo 1:</strong> Identificar os valores</p>
+                <p>aₙ = a₁ + (n − 1)·r</p>
+                <p>a₅ = 3 + (5 − 1)·2</p>
+
+                <p><strong>Passo 2:</strong> Resolver os parênteses</p>
+                <p>a₅ = 3 + 4·2</p>
+
+                <p><strong>Passo 3:</strong> Multiplicar e somar</p>
+                <p>a₅ = 3 + 8 = <strong>11</strong></p>
+            </div>
+
+            <h3>📘 Fórmula do termo geral da P.G.:</h3>
+            <p><strong>aₙ = a₁ · qⁿ⁻¹</strong></p>
+
+            <ul>
+                <li><strong>a₁</strong> → primeiro termo</li>
+                <li><strong>q</strong> → razão (multiplicação entre termos)</li>
+                <li><strong>n</strong> → posição</li>
+                <li><strong>aₙ</strong> → termo geral</li>
+            </ul>
+
+            <div class="example">
+                <h3>📌 Exemplo: P.G.</h3>
+                <p>Queremos o 4º termo de uma P.G. com:</p>
+                <p>a₁ = 2 e q = 3</p>
+
+                <p><strong>Passo 1:</strong> Identificar os valores</p>
+                <p>a₄ = 2 · 3^(4 − 1)</p>
+
+                <p><strong>Passo 2:</strong> Resolver o expoente</p>
+                <p>a₄ = 2 · 3³ = 2 · 27</p>
+
+                <p><strong>Passo 3:</strong> Multiplicar</p>
+                <p>a₄ = <strong>54</strong></p>
+            </div>
+
+            <h3>💡 Dicas:</h3>
+            <ul>
+                <li>🔍 Substitua com cuidado na fórmula</li>
+                <li>📏 P.A. cresce ou diminui de forma constante (por adição/subtração)</li>
+                <li>🔁 P.G. cresce ou diminui de forma rápida (por multiplicação/divisão)</li>
+                <li>🧠 Sempre simplifique antes de multiplicar</li>
+            </ul>
+        </section>
+
+
+        <!-- Descritor 27 -->
+        <section class="content-section">
+            <h2>Descritor 27: Identificar a representação algébrica e/ou gráfica de uma função exponencial.</h2>
+
+            <p>Este descritor avalia se o aluno consegue identificar e analisar uma <strong>função exponencial</strong>
+                a partir de:</p>
+            <ul>
+                <li>✅ Interpretação da fórmula f(x) = a · bˣ</li>
+                <li>✅ Cálculo de f(x) para diferentes valores de x</li>
+                <li>✅ Compreensão do crescimento ou decrescimento da função</li>
+            </ul>
+
+
+            <p>A função exponencial tem a forma:</p>
+            <p><strong>f(x) = a · bˣ</strong></p>
+
+            <ul>
+                <li><strong>a</strong> → valor inicial</li>
+                <li><strong>b</strong> → base (deve ser positiva e ≠ 1)</li>
+                <li><strong>x</strong> → variável no expoente</li>
+            </ul>
+
+            <div class="example">
+                <h3>📌 Exemplo:</h3>
+                <p>Dada a função <strong>f(x) = 2 · 3ˣ</strong>, vamos calcular f(0), f(1) e f(2)</p>
+
+                <p><strong>f(0):</strong></p>
+                <p>f(0) = 2 · 3⁰ = 2 · 1 = <strong>2</strong></p>
+
+                <p><strong>f(1):</strong></p>
+                <p>f(1) = 2 · 3¹ = 2 · 3 = <strong>6</strong></p>
+
+                <p><strong>f(2):</strong></p>
+                <p>f(2) = 2 · 3² = 2 · 9 = <strong>18</strong></p>
+            </div>
+
+            <h3>💡 Dicas:</h3>
+            <ul>
+                <li>📈 Se b > 1 ➜ crescimento rápido</li>
+                <li>📉 Se 0 < b < 1 ➜ decrescimento</li>
+                <li>🔁 O valor de f(x) muda com a variação de x, pois está no expoente</li>
+                <li>🧪 f(0) sempre será igual a "a", pois qualquer número elevado a 0 é 1</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
